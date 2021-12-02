@@ -10,7 +10,7 @@ function App() {
           <Select />
           <Container />
          
-      </div>
+      </div> 
     </ WeatherProvider >
     
   );

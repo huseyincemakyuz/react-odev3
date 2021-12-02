@@ -17,7 +17,7 @@ export const WeatherProvider = ({children}) => {
         setVideoData,
     };
     return(
-        <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider>
+        <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider> 
     )
 }
 

@@ -13,7 +13,7 @@ function Select() {
         </option>
       );
     }, this);
-
+ 
     const setMe = (e) =>{
         for (let i = 0; i < cities.length; i++) {
             if(e.target.value === cities[i].name){

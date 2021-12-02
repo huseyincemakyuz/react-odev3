@@ -24,7 +24,7 @@ function Container() {
       <div className="weathercardscontainer">
         {weatherData &&
           weatherData.map((oneDay, i) => {
-            return (
+            return ( 
               <div className="dayCard" key={i}>
                 <p>{days[new Date(oneDay.dt * 1000).getDay()]}</p>
                 <div>

@@ -68,7 +68,7 @@ select:hover {
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 .dayCard p:first-child {
   font-size: 0.9rem;
