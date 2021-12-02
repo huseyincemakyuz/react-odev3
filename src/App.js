@@ -1,23 +1,18 @@
 import './App.css';
+import Select from './components/Select/select';
+import Container from './components/Container/container';
+import { WeatherProvider } from "./context/weathercontext"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    < WeatherProvider r>
+      <div className="App">
+          <Select />
+          <Container />
+         
+      </div>
+    </ WeatherProvider >
+    
   );
 }
 
