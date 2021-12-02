@@ -12,7 +12,7 @@ export const WeatherProvider = ({children}) => {
         setCity,
         cities,
         weatherData,
-        setWeatherData,
+        setWeatherData, 
         videoData,
         setVideoData,
     };
